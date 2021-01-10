@@ -1,0 +1,51 @@
+2021-01-08 01:18:43.777  INFO 11312 --- [main] g.h.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 15.0.1 on DESKTOP-F1JNVSL with PID 11312 (C:\dev\java\spring\SpringBootFundamentals\productrestapi\target\classes started by admin in C:\dev\java\spring\SpringBootFundamentals)
+2021-01-08 01:18:43.790  INFO 11312 --- [main] g.h.s.p.ProductrestapiApplication        : The following profiles are active: dev
+2021-01-08 01:18:45.113  INFO 11312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-08 01:18:45.200  INFO 11312 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2021-01-08 01:18:45.706  INFO 11312 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3202ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-01-08 01:18:46.026  INFO 11312 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-01-08 01:18:46.034  INFO 11312 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9
+2021-01-08 01:18:46.066  INFO 11312 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-01-08 01:18:46.066  INFO 11312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2205 ms
+2021-01-08 01:18:46.370  INFO 11312 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-01-08 01:18:46.370  INFO 11312 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-01-08 01:18:46.377  INFO 11312 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2021-01-08 01:18:46.381  INFO 11312 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@41ccb3b9{application,/productapi,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.8080.17229198830653227063/],AVAILABLE}
+2021-01-08 01:18:46.381  INFO 11312 --- [main] org.eclipse.jetty.server.Server          : Started @3876ms
+2021-01-08 01:18:46.472  WARN 11312 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2021-01-08 01:18:46.537  INFO 11312 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2021-01-08 01:18:46.577  INFO 11312 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Picked [192.168.1.4]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2021-01-08 01:18:46.607  INFO 11312 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Hazelcast 4.0.3 (20200921 - 59ae831) starting at [192.168.1.4]:5701
+2021-01-08 01:18:46.608  INFO 11312 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2021-01-08 01:18:46.850  INFO 11312 --- [main] c.h.s.i.o.impl.BackpressureRegulator     : [192.168.1.4]:5701 [dev] [4.0.3] Backpressure is disabled
+2021-01-08 01:18:47.194  INFO 11312 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.4]:5701 [dev] [4.0.3] Creating MulticastJoiner
+2021-01-08 01:18:47.200  WARN 11312 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.4]:5701 [dev] [4.0.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2021-01-08 01:18:47.558  INFO 11312 --- [main] c.h.s.i.o.impl.OperationExecutorImpl     : [192.168.1.4]:5701 [dev] [4.0.3] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2021-01-08 01:18:47.561  INFO 11312 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.4]:5701 [dev] [4.0.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2021-01-08 01:18:47.571  INFO 11312 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTING
+2021-01-08 01:18:49.712  INFO 11312 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.4]:5701 [dev] [4.0.3] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.4]:5701 - c11c4f90-a728-41e5-a08d-7484cc825685 this
+]
+
+2021-01-08 01:18:49.727  INFO 11312 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTED
+2021-01-08 01:18:49.921  INFO 11312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-08 01:18:50.408  INFO 11312 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-08 01:18:50.484  INFO 11312 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-08 01:18:50.568  INFO 11312 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-08 01:18:50.802  INFO 11312 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-08 01:18:50.982  INFO 11312 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-08 01:18:51.658  INFO 11312 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-08 01:18:51.669  INFO 11312 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-08 01:18:52.158  WARN 11312 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-08 01:18:52.352  INFO 11312 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-08 01:18:52.908  INFO 11312 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-08 01:18:52.984  INFO 11312 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-08 01:18:52.985  INFO 11312 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-08 01:18:52.987  INFO 11312 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-08 01:18:52.993  INFO 11312 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@806996{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-01-08 01:18:52.993  INFO 11312 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-01-08 01:18:53.022  INFO 11312 --- [main] g.h.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 9.799 seconds (JVM running for 10.513)
+2021-01-08 01:19:23.690  INFO 11312 --- [qtp1756039478-24] c.h.i.p.impl.PartitionStateManager       : [192.168.1.4]:5701 [dev] [4.0.3] Initializing cluster partition table arrangement...

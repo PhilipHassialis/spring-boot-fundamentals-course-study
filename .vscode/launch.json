@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductrestapiApplication<productrestapi>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "gr.hassialis.springweb.productrestapi.ProductrestapiApplication",
+            "projectName": "productrestapi",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Assignment3Application<assignment3>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "gr.hassialis.assignment3.Assignment3Application",
+            "projectName": "assignment3",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Assignment5Application<assignment3 (2)>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "gr.hassialis.assignment5.Assignment5Application",
+            "projectName": "assignment3 (2)",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ThymeleafdemoApplication<thymeleafdemo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "gr.hassialis.thymeleafdemo.ThymeleafdemoApplication",
+            "projectName": "thymeleafdemo",
+            "args": ""
+        }
+    ]
+}

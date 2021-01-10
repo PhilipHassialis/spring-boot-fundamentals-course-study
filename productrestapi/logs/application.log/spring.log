@@ -1,0 +1,358 @@
+2021-01-10 03:33:05.601  INFO 13452 --- [hz.hazel-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [192.168.1.4]:5701 [dev] [4.0.3] processors=8, physical.memory.total=7,9G, physical.memory.free=515,4M, swap.space.total=0, swap.space.free=0, heap.memory.used=60,7M, heap.memory.free=34,3M, heap.memory.total=95,0M, heap.memory.max=2,0G, heap.memory.used/total=63,88%, heap.memory.used/max=3,00%, minor.gc.count=96, minor.gc.time=542ms, major.gc.count=0, major.gc.time=0ms, load.process=0,00%, load.system=83,10%, load.systemAverage=n/a thread.count=72, thread.peakCount=75, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0,00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2021-01-10 03:33:25.862  INFO 13452 --- [hz.hazel-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [192.168.1.4]:5701 [dev] [4.0.3] processors=8, physical.memory.total=7,9G, physical.memory.free=847,4M, swap.space.total=0, swap.space.free=0, heap.memory.used=62,1M, heap.memory.free=32,9M, heap.memory.total=95,0M, heap.memory.max=2,0G, heap.memory.used/total=65,37%, heap.memory.used/max=3,07%, minor.gc.count=96, minor.gc.time=542ms, major.gc.count=0, major.gc.time=0ms, load.process=0,00%, load.system=97,49%, load.systemAverage=n/a thread.count=69, thread.peakCount=75, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0,00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2021-01-10 03:33:45.871  INFO 13452 --- [hz.hazel-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [192.168.1.4]:5701 [dev] [4.0.3] processors=8, physical.memory.total=7,9G, physical.memory.free=915,8M, swap.space.total=0, swap.space.free=0, heap.memory.used=62,7M, heap.memory.free=32,3M, heap.memory.total=95,0M, heap.memory.max=2,0G, heap.memory.used/total=66,04%, heap.memory.used/max=3,10%, minor.gc.count=96, minor.gc.time=542ms, major.gc.count=0, major.gc.time=0ms, load.process=0,00%, load.system=87,17%, load.systemAverage=n/a thread.count=67, thread.peakCount=75, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0,00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2021-01-10 13:21:40.496  INFO 11324 --- [main] g.h.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 15.0.1 on DESKTOP-F1JNVSL with PID 11324 (C:\dev\java\spring\SpringBootFundamentals\productrestapi\target\classes started by admin in c:\dev\java\spring\SpringBootFundamentals\productrestapi)
+2021-01-10 13:21:40.500  INFO 11324 --- [main] g.h.s.p.ProductrestapiApplication        : The following profiles are active: dev
+2021-01-10 13:21:42.437  INFO 11324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-10 13:21:42.518  INFO 11324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interfaces.
+2021-01-10 13:21:43.073  INFO 11324 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4127ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-01-10 13:21:43.315  INFO 11324 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-01-10 13:21:43.324  INFO 11324 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9
+2021-01-10 13:21:43.356  INFO 11324 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-01-10 13:21:43.356  INFO 11324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2779 ms
+2021-01-10 13:21:43.658  INFO 11324 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-01-10 13:21:43.658  INFO 11324 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-01-10 13:21:43.664  INFO 11324 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2021-01-10 13:21:43.669  INFO 11324 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@f18b738{application,/productapi,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.8080.12095475408934465308/, jar:file:/C:/Users/admin/.m2/repository/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
+2021-01-10 13:21:43.669  INFO 11324 --- [main] org.eclipse.jetty.server.Server          : Started @4725ms
+2021-01-10 13:21:43.787  WARN 11324 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2021-01-10 13:21:43.851  INFO 11324 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2021-01-10 13:21:43.886  INFO 11324 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Picked [192.168.1.4]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2021-01-10 13:21:43.910  INFO 11324 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Hazelcast 4.0.3 (20200921 - 59ae831) starting at [192.168.1.4]:5701
+2021-01-10 13:21:43.910  INFO 11324 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2021-01-10 13:21:44.183  INFO 11324 --- [main] c.h.s.i.o.impl.BackpressureRegulator     : [192.168.1.4]:5701 [dev] [4.0.3] Backpressure is disabled
+2021-01-10 13:21:44.562  INFO 11324 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.4]:5701 [dev] [4.0.3] Creating MulticastJoiner
+2021-01-10 13:21:44.568  WARN 11324 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.4]:5701 [dev] [4.0.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2021-01-10 13:21:44.884  INFO 11324 --- [main] c.h.s.i.o.impl.OperationExecutorImpl     : [192.168.1.4]:5701 [dev] [4.0.3] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2021-01-10 13:21:44.890  INFO 11324 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.4]:5701 [dev] [4.0.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2021-01-10 13:21:44.894  INFO 11324 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTING
+2021-01-10 13:21:47.528  INFO 11324 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.4]:5701 [dev] [4.0.3] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.4]:5701 - c63c1adb-954c-4d97-afed-d57c6b6def58 this
+]
+
+2021-01-10 13:21:47.532  INFO 11324 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTED
+2021-01-10 13:21:47.722  INFO 11324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-10 13:21:48.165  INFO 11324 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-10 13:21:48.239  INFO 11324 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-10 13:21:48.339  INFO 11324 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-10 13:21:48.588  INFO 11324 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-10 13:21:48.753  INFO 11324 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-10 13:21:49.447  INFO 11324 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-10 13:21:49.451  INFO 11324 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-10 13:21:50.109  WARN 11324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-10 13:21:50.577  INFO 11324 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-10 13:21:50.739  INFO 11324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 13:21:51.116  INFO 11324 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:21:51.116  INFO 11324 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-10 13:21:51.124  INFO 11324 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2021-01-10 13:21:51.137  INFO 11324 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@582e9152{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-01-10 13:21:51.137  INFO 11324 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-01-10 13:21:51.269  INFO 11324 --- [main] g.h.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 11.311 seconds (JVM running for 12.322)
+2021-01-10 13:24:43.736  INFO 12092 --- [main] g.h.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 15.0.1 on DESKTOP-F1JNVSL with PID 12092 (C:\dev\java\spring\SpringBootFundamentals\productrestapi\target\classes started by admin in c:\dev\java\spring\SpringBootFundamentals\productrestapi)
+2021-01-10 13:24:43.740  INFO 12092 --- [main] g.h.s.p.ProductrestapiApplication        : The following profiles are active: dev
+2021-01-10 13:24:45.462  INFO 12092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-10 13:24:45.526  INFO 12092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2021-01-10 13:24:46.090  INFO 12092 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3693ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-01-10 13:24:46.357  INFO 12092 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-01-10 13:24:46.362  INFO 12092 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9
+2021-01-10 13:24:46.396  INFO 12092 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-01-10 13:24:46.397  INFO 12092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2587 ms
+2021-01-10 13:24:46.768  INFO 12092 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-01-10 13:24:46.768  INFO 12092 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-01-10 13:24:46.770  INFO 12092 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2021-01-10 13:24:46.783  INFO 12092 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@f18b738{application,/productapi,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.8080.1683948582062033280/, jar:file:/C:/Users/admin/.m2/repository/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
+2021-01-10 13:24:46.784  INFO 12092 --- [main] org.eclipse.jetty.server.Server          : Started @4378ms
+2021-01-10 13:24:46.871  WARN 12092 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2021-01-10 13:24:46.925  INFO 12092 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2021-01-10 13:24:46.961  INFO 12092 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Picked [192.168.1.4]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2021-01-10 13:24:46.989  INFO 12092 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Hazelcast 4.0.3 (20200921 - 59ae831) starting at [192.168.1.4]:5701
+2021-01-10 13:24:46.989  INFO 12092 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2021-01-10 13:24:47.250  INFO 12092 --- [main] c.h.s.i.o.impl.BackpressureRegulator     : [192.168.1.4]:5701 [dev] [4.0.3] Backpressure is disabled
+2021-01-10 13:24:47.576  INFO 12092 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.4]:5701 [dev] [4.0.3] Creating MulticastJoiner
+2021-01-10 13:24:47.582  WARN 12092 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.4]:5701 [dev] [4.0.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2021-01-10 13:24:47.858  INFO 12092 --- [main] c.h.s.i.o.impl.OperationExecutorImpl     : [192.168.1.4]:5701 [dev] [4.0.3] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2021-01-10 13:24:47.864  INFO 12092 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.4]:5701 [dev] [4.0.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2021-01-10 13:24:47.868  INFO 12092 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTING
+2021-01-10 13:24:50.615  INFO 12092 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.4]:5701 [dev] [4.0.3] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.4]:5701 - 2bdf2401-07a5-465e-a441-3fe8fbddeb80 this
+]
+
+2021-01-10 13:24:50.618  INFO 12092 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTED
+2021-01-10 13:24:50.826  INFO 12092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-10 13:24:51.279  INFO 12092 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-10 13:24:51.344  INFO 12092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-10 13:24:51.426  INFO 12092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-10 13:24:51.619  INFO 12092 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-10 13:24:51.777  INFO 12092 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-10 13:24:52.408  INFO 12092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-10 13:24:52.421  INFO 12092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-10 13:24:53.075  WARN 12092 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-10 13:24:53.399  INFO 12092 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-10 13:24:53.572  INFO 12092 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 13:24:53.928  INFO 12092 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:24:53.928  INFO 12092 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-10 13:24:53.931  INFO 12092 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-10 13:24:53.939  INFO 12092 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@582e9152{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-01-10 13:24:53.946  INFO 12092 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-01-10 13:24:54.302  INFO 12092 --- [main] g.h.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 11.048 seconds (JVM running for 11.9)
+2021-01-10 13:33:03.809  INFO 14700 --- [main] g.h.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 15.0.1 on DESKTOP-F1JNVSL with PID 14700 (C:\dev\java\spring\SpringBootFundamentals\productrestapi\target\classes started by admin in c:\dev\java\spring\SpringBootFundamentals\productrestapi)
+2021-01-10 13:33:03.812  INFO 14700 --- [main] g.h.s.p.ProductrestapiApplication        : The following profiles are active: dev
+2021-01-10 13:33:05.591  INFO 14700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-10 13:33:05.671  INFO 14700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2021-01-10 13:33:06.241  INFO 14700 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3874ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-01-10 13:33:06.491  INFO 14700 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-01-10 13:33:06.498  INFO 14700 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9
+2021-01-10 13:33:06.536  INFO 14700 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-01-10 13:33:06.536  INFO 14700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2660 ms
+2021-01-10 13:33:06.826  INFO 14700 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-01-10 13:33:06.826  INFO 14700 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-01-10 13:33:06.832  INFO 14700 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2021-01-10 13:33:06.842  INFO 14700 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@f18b738{application,/productapi,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.8080.12300870382551247686/, jar:file:/C:/Users/admin/.m2/repository/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
+2021-01-10 13:33:06.842  INFO 14700 --- [main] org.eclipse.jetty.server.Server          : Started @4474ms
+2021-01-10 13:33:06.916  WARN 14700 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2021-01-10 13:33:06.961  INFO 14700 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2021-01-10 13:33:06.996  INFO 14700 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Picked [192.168.1.4]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2021-01-10 13:33:07.017  INFO 14700 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Hazelcast 4.0.3 (20200921 - 59ae831) starting at [192.168.1.4]:5701
+2021-01-10 13:33:07.017  INFO 14700 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2021-01-10 13:33:07.336  INFO 14700 --- [main] c.h.s.i.o.impl.BackpressureRegulator     : [192.168.1.4]:5701 [dev] [4.0.3] Backpressure is disabled
+2021-01-10 13:33:07.691  INFO 14700 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.4]:5701 [dev] [4.0.3] Creating MulticastJoiner
+2021-01-10 13:33:07.696  WARN 14700 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.4]:5701 [dev] [4.0.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2021-01-10 13:33:07.976  INFO 14700 --- [main] c.h.s.i.o.impl.OperationExecutorImpl     : [192.168.1.4]:5701 [dev] [4.0.3] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2021-01-10 13:33:07.981  INFO 14700 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.4]:5701 [dev] [4.0.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2021-01-10 13:33:07.987  INFO 14700 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTING
+2021-01-10 13:33:10.421  INFO 14700 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.4]:5701 [dev] [4.0.3] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.4]:5701 - 21413b15-b64d-4356-abc5-5de5e5f01a94 this
+]
+
+2021-01-10 13:33:10.432  INFO 14700 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTED
+2021-01-10 13:33:10.642  INFO 14700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-10 13:33:11.107  INFO 14700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-10 13:33:11.166  INFO 14700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-10 13:33:11.244  INFO 14700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-10 13:33:11.479  INFO 14700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-10 13:33:11.670  INFO 14700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-10 13:33:12.326  INFO 14700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-10 13:33:12.336  INFO 14700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-10 13:33:12.991  WARN 14700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-10 13:33:13.411  INFO 14700 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-10 13:33:13.627  INFO 14700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 13:33:14.001  INFO 14700 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:33:14.001  INFO 14700 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-10 13:33:14.004  INFO 14700 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-10 13:33:14.016  INFO 14700 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@582e9152{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-01-10 13:33:14.016  INFO 14700 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-01-10 13:33:14.396  INFO 14700 --- [main] g.h.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 11.097 seconds (JVM running for 12.032)
+2021-01-10 13:37:29.506  INFO 9660 --- [main] g.h.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 15.0.1 on DESKTOP-F1JNVSL with PID 9660 (C:\dev\java\spring\SpringBootFundamentals\productrestapi\target\classes started by admin in c:\dev\java\spring\SpringBootFundamentals\productrestapi)
+2021-01-10 13:37:29.510  INFO 9660 --- [main] g.h.s.p.ProductrestapiApplication        : The following profiles are active: dev
+2021-01-10 13:37:31.543  INFO 9660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-10 13:37:31.616  INFO 9660 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2021-01-10 13:37:32.230  INFO 9660 --- [main] org.eclipse.jetty.util.log               : Logging initialized @4119ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-01-10 13:37:32.492  INFO 9660 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-01-10 13:37:32.499  INFO 9660 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9
+2021-01-10 13:37:32.540  INFO 9660 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-01-10 13:37:32.541  INFO 9660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2963 ms
+2021-01-10 13:37:32.920  INFO 9660 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-01-10 13:37:32.921  INFO 9660 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-01-10 13:37:32.922  INFO 9660 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2021-01-10 13:37:32.937  INFO 9660 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@120350eb{application,/productapi,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.8080.5319304563647488748/, jar:file:/C:/Users/admin/.m2/repository/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
+2021-01-10 13:37:32.938  INFO 9660 --- [main] org.eclipse.jetty.server.Server          : Started @4829ms
+2021-01-10 13:37:33.048  WARN 9660 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2021-01-10 13:37:33.120  INFO 9660 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2021-01-10 13:37:33.159  INFO 9660 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Picked [192.168.1.4]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2021-01-10 13:37:33.190  INFO 9660 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Hazelcast 4.0.3 (20200921 - 59ae831) starting at [192.168.1.4]:5701
+2021-01-10 13:37:33.191  INFO 9660 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2021-01-10 13:37:33.466  INFO 9660 --- [main] c.h.s.i.o.impl.BackpressureRegulator     : [192.168.1.4]:5701 [dev] [4.0.3] Backpressure is disabled
+2021-01-10 13:37:33.871  INFO 9660 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.4]:5701 [dev] [4.0.3] Creating MulticastJoiner
+2021-01-10 13:37:33.879  WARN 9660 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.4]:5701 [dev] [4.0.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2021-01-10 13:37:34.190  INFO 9660 --- [main] c.h.s.i.o.impl.OperationExecutorImpl     : [192.168.1.4]:5701 [dev] [4.0.3] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2021-01-10 13:37:34.192  INFO 9660 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.4]:5701 [dev] [4.0.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2021-01-10 13:37:34.198  INFO 9660 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTING
+2021-01-10 13:37:36.793  INFO 9660 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.4]:5701 [dev] [4.0.3] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.4]:5701 - f86f451d-0c62-41ea-a876-dce74f233683 this
+]
+
+2021-01-10 13:37:36.805  INFO 9660 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTED
+2021-01-10 13:37:36.988  INFO 9660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-10 13:37:37.455  INFO 9660 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-10 13:37:37.518  INFO 9660 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-10 13:37:37.589  INFO 9660 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-10 13:37:37.817  INFO 9660 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-10 13:37:38.016  INFO 9660 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-10 13:37:38.675  INFO 9660 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-10 13:37:38.686  INFO 9660 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-10 13:37:39.367  WARN 9660 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-10 13:37:39.721  INFO 9660 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-10 13:37:39.973  INFO 9660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 13:37:40.384  INFO 9660 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:37:40.384  INFO 9660 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-10 13:37:40.386  INFO 9660 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-10 13:37:40.400  INFO 9660 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@706f6d26{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-01-10 13:37:40.401  INFO 9660 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-01-10 13:37:40.566  WARN 9660 --- [qtp1631551159-27] s.d.s.web.Swagger2ControllerWebMvc       : Unable to find specification for group default
+2021-01-10 13:37:40.920  INFO 9660 --- [main] g.h.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 11.93 seconds (JVM running for 12.81)
+2021-01-10 13:37:56.999  INFO 2968 --- [main] g.h.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 15.0.1 on DESKTOP-F1JNVSL with PID 2968 (C:\dev\java\spring\SpringBootFundamentals\productrestapi\target\classes started by admin in c:\dev\java\spring\SpringBootFundamentals\productrestapi)
+2021-01-10 13:37:56.999  INFO 2968 --- [main] g.h.s.p.ProductrestapiApplication        : The following profiles are active: dev
+2021-01-10 13:37:58.851  INFO 2968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-10 13:37:58.915  INFO 2968 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2021-01-10 13:37:59.496  INFO 2968 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3918ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-01-10 13:37:59.740  INFO 2968 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-01-10 13:37:59.748  INFO 2968 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9
+2021-01-10 13:37:59.786  INFO 2968 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-01-10 13:37:59.786  INFO 2968 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2720 ms
+2021-01-10 13:38:00.115  INFO 2968 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-01-10 13:38:00.115  INFO 2968 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-01-10 13:38:00.117  INFO 2968 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2021-01-10 13:38:00.129  INFO 2968 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@1a497286{application,/productapi,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.8080.4622383944683134244/, jar:file:/C:/Users/admin/.m2/repository/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
+2021-01-10 13:38:00.131  INFO 2968 --- [main] org.eclipse.jetty.server.Server          : Started @4552ms
+2021-01-10 13:38:00.207  WARN 2968 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2021-01-10 13:38:00.257  INFO 2968 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2021-01-10 13:38:00.298  INFO 2968 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Picked [192.168.1.4]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2021-01-10 13:38:00.327  INFO 2968 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Hazelcast 4.0.3 (20200921 - 59ae831) starting at [192.168.1.4]:5701
+2021-01-10 13:38:00.327  INFO 2968 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2021-01-10 13:38:00.540  INFO 2968 --- [main] c.h.s.i.o.impl.BackpressureRegulator     : [192.168.1.4]:5701 [dev] [4.0.3] Backpressure is disabled
+2021-01-10 13:38:00.834  INFO 2968 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.4]:5701 [dev] [4.0.3] Creating MulticastJoiner
+2021-01-10 13:38:00.839  WARN 2968 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.4]:5701 [dev] [4.0.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2021-01-10 13:38:01.116  INFO 2968 --- [main] c.h.s.i.o.impl.OperationExecutorImpl     : [192.168.1.4]:5701 [dev] [4.0.3] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2021-01-10 13:38:01.118  INFO 2968 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.4]:5701 [dev] [4.0.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2021-01-10 13:38:01.126  INFO 2968 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTING
+2021-01-10 13:38:03.664  INFO 2968 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.4]:5701 [dev] [4.0.3] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.4]:5701 - bc17c2f0-106e-4ac2-a2d8-4adf33de138e this
+]
+
+2021-01-10 13:38:03.683  INFO 2968 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTED
+2021-01-10 13:38:03.880  INFO 2968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-10 13:38:04.347  INFO 2968 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-10 13:38:04.413  INFO 2968 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-10 13:38:04.494  INFO 2968 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-10 13:38:04.710  INFO 2968 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-10 13:38:04.915  INFO 2968 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-10 13:38:05.604  INFO 2968 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-10 13:38:05.615  INFO 2968 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-10 13:38:06.305  WARN 2968 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-10 13:38:06.810  INFO 2968 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-10 13:38:07.185  INFO 2968 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 13:38:07.757  INFO 2968 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:38:07.761  INFO 2968 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-10 13:38:07.766  INFO 2968 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-01-10 13:38:07.777  INFO 2968 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@46b2dcc5{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-01-10 13:38:07.777  INFO 2968 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-01-10 13:38:08.229  INFO 2968 --- [main] g.h.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 11.727 seconds (JVM running for 12.654)
+2021-01-10 13:48:25.138  INFO 20416 --- [main] g.h.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 15.0.1 on DESKTOP-F1JNVSL with PID 20416 (C:\dev\java\spring\SpringBootFundamentals\productrestapi\target\classes started by admin in c:\dev\java\spring\SpringBootFundamentals\productrestapi)
+2021-01-10 13:48:25.142  INFO 20416 --- [main] g.h.s.p.ProductrestapiApplication        : The following profiles are active: dev
+2021-01-10 13:48:27.717  INFO 20416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-10 13:48:27.811  INFO 20416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2021-01-10 13:48:28.671  INFO 20416 --- [main] org.eclipse.jetty.util.log               : Logging initialized @5416ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-01-10 13:48:28.969  INFO 20416 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-01-10 13:48:28.975  INFO 20416 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9
+2021-01-10 13:48:29.035  INFO 20416 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-01-10 13:48:29.036  INFO 20416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3829 ms
+2021-01-10 13:48:29.488  INFO 20416 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-01-10 13:48:29.488  INFO 20416 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-01-10 13:48:29.490  INFO 20416 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 600000ms
+2021-01-10 13:48:29.504  INFO 20416 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@474e34e4{application,/productapi,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.8080.12487312694080511423/, jar:file:/C:/Users/admin/.m2/repository/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
+2021-01-10 13:48:29.505  INFO 20416 --- [main] org.eclipse.jetty.server.Server          : Started @6252ms
+2021-01-10 13:48:29.684  WARN 20416 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2021-01-10 13:48:29.788  INFO 20416 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2021-01-10 13:48:29.887  INFO 20416 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Picked [192.168.1.4]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2021-01-10 13:48:29.925  INFO 20416 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Hazelcast 4.0.3 (20200921 - 59ae831) starting at [192.168.1.4]:5701
+2021-01-10 13:48:29.925  INFO 20416 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2021-01-10 13:48:30.254  INFO 20416 --- [main] c.h.s.i.o.impl.BackpressureRegulator     : [192.168.1.4]:5701 [dev] [4.0.3] Backpressure is disabled
+2021-01-10 13:48:30.730  INFO 20416 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.4]:5701 [dev] [4.0.3] Creating MulticastJoiner
+2021-01-10 13:48:30.740  WARN 20416 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.4]:5701 [dev] [4.0.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2021-01-10 13:48:31.126  INFO 20416 --- [main] c.h.s.i.o.impl.OperationExecutorImpl     : [192.168.1.4]:5701 [dev] [4.0.3] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2021-01-10 13:48:31.128  INFO 20416 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.4]:5701 [dev] [4.0.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2021-01-10 13:48:31.139  INFO 20416 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTING
+2021-01-10 13:48:33.815  INFO 20416 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.4]:5701 [dev] [4.0.3] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.4]:5701 - 5f9f3701-2c9a-4eed-9ef0-b7a5478d4fd2 this
+]
+
+2021-01-10 13:48:33.836  INFO 20416 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTED
+2021-01-10 13:48:33.848  INFO 20416 --- [hz.hazel-instance.HealthMonitor] c.h.internal.diagnostics.HealthMonitor   : [192.168.1.4]:5701 [dev] [4.0.3] processors=8, physical.memory.total=7,9G, physical.memory.free=380,6M, swap.space.total=0, swap.space.free=0, heap.memory.used=34,8M, heap.memory.free=55,2M, heap.memory.total=90,0M, heap.memory.max=2,0G, heap.memory.used/total=38,51%, heap.memory.used/max=1,71%, minor.gc.count=13, minor.gc.time=93ms, major.gc.count=0, major.gc.time=0ms, load.process=0,00%, load.system=75,46%, load.systemAverage=n/a thread.count=59, thread.peakCount=59, cluster.timeDiff=0, event.q.size=0, executor.q.async.size=0, executor.q.client.size=0, executor.q.client.query.size=0, executor.q.client.blocking.size=0, executor.q.query.size=0, executor.q.scheduled.size=0, executor.q.io.size=0, executor.q.system.size=0, executor.q.operations.size=0, executor.q.priorityOperation.size=0, operations.completed.count=1, executor.q.mapLoad.size=0, executor.q.mapLoadAllKeys.size=0, executor.q.cluster.size=0, executor.q.response.size=0, operations.running.count=0, operations.pending.invocations.percentage=0,00%, operations.pending.invocations.count=0, proxy.count=0, clientEndpoint.count=0, connection.active.count=0, client.connection.count=0, connection.count=0
+2021-01-10 13:48:34.019  INFO 20416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-10 13:48:34.753  INFO 20416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-10 13:48:34.848  INFO 20416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-10 13:48:34.938  INFO 20416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-10 13:48:35.192  INFO 20416 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-10 13:48:35.408  INFO 20416 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-10 13:48:36.330  INFO 20416 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-10 13:48:36.342  INFO 20416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-10 13:48:37.064  WARN 20416 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-10 13:48:37.461  INFO 20416 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-10 13:48:37.660  INFO 20416 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 13:48:38.016  INFO 20416 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:48:38.016  INFO 20416 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-10 13:48:38.026  INFO 20416 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-01-10 13:48:38.037  INFO 20416 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@34a20f16{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-01-10 13:48:38.039  INFO 20416 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-01-10 13:48:38.462  INFO 20416 --- [main] g.h.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 13.941 seconds (JVM running for 15.208)
+2021-01-10 13:48:57.368  WARN 20416 --- [qtp1015552283-27] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public gr.hassialis.springweb.productrestapi.entities.Product gr.hassialis.springweb.productrestapi.controllers.ProductRestController.createProduct(gr.hassialis.springweb.productrestapi.entities.Product): [Field error in object 'product' on field 'price': rejected value [0.0]; codes [Min.product.price,Min.price,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.price,price]; arguments []; default message [price],1]; default message [Value must be at least 1.00]] ]
+2021-01-10 13:49:51.183  WARN 20416 --- [qtp1015552283-27] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public gr.hassialis.springweb.productrestapi.entities.Product gr.hassialis.springweb.productrestapi.controllers.ProductRestController.createProduct(gr.hassialis.springweb.productrestapi.entities.Product): [Field error in object 'product' on field 'price': rejected value [0.0]; codes [Min.product.price,Min.price,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.price,price]; arguments []; default message [price],1]; default message [Value must be at least 1.00]] ]
+2021-01-10 13:59:10.390  INFO 9684 --- [main] g.h.s.p.ProductrestapiApplication        : Starting ProductrestapiApplication using Java 15.0.1 on DESKTOP-F1JNVSL with PID 9684 (C:\dev\java\spring\SpringBootFundamentals\productrestapi\target\classes started by admin in c:\dev\java\spring\SpringBootFundamentals\productrestapi)
+2021-01-10 13:59:10.394  INFO 9684 --- [main] g.h.s.p.ProductrestapiApplication        : The following profiles are active: dev
+2021-01-10 13:59:12.119  INFO 9684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-10 13:59:12.203  INFO 9684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interfaces.
+2021-01-10 13:59:12.803  INFO 9684 --- [main] org.eclipse.jetty.util.log               : Logging initialized @3792ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-01-10 13:59:13.019  INFO 9684 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2021-01-10 13:59:13.025  INFO 9684 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 15.0.1+9
+2021-01-10 13:59:13.044  INFO 9684 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2021-01-10 13:59:13.044  INFO 9684 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2581 ms
+2021-01-10 13:59:13.304  INFO 9684 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2021-01-10 13:59:13.304  INFO 9684 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2021-01-10 13:59:13.304  INFO 9684 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2021-01-10 13:59:13.314  INFO 9684 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@474e34e4{application,/productapi,[file:///C:/Users/admin/AppData/Local/Temp/jetty-docbase.8080.11490121361017521917/, jar:file:/C:/Users/admin/.m2/repository/io/springfox/springfox-swagger-ui/3.0.0/springfox-swagger-ui-3.0.0.jar!/META-INF/resources],AVAILABLE}
+2021-01-10 13:59:13.314  INFO 9684 --- [main] org.eclipse.jetty.server.Server          : Started @4307ms
+2021-01-10 13:59:13.387  WARN 9684 --- [main] c.h.i.impl.HazelcastInstanceFactory      : Hazelcast is starting in a Java modular environment (Java 9 and newer) but without proper access to required Java packages. Use additional Java arguments to provide Hazelcast access to Java internal API. The internal API access is used to get the best performance results. Arguments to be used:
+ --add-modules java.se --add-exports java.base/jdk.internal.ref=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.nio=ALL-UNNAMED --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.management/sun.management=ALL-UNNAMED --add-opens jdk.management/com.sun.management.internal=ALL-UNNAMED
+2021-01-10 13:59:13.420  INFO 9684 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Prefer IPv4 stack is true, prefer IPv6 addresses is false
+2021-01-10 13:59:13.452  INFO 9684 --- [main] com.hazelcast.instance.AddressPicker     : [LOCAL] [dev] [4.0.3] Picked [192.168.1.4]:5701, using socket ServerSocket[addr=/0:0:0:0:0:0:0:0,localport=5701], bind any local is true
+2021-01-10 13:59:13.478  INFO 9684 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Hazelcast 4.0.3 (20200921 - 59ae831) starting at [192.168.1.4]:5701
+2021-01-10 13:59:13.478  INFO 9684 --- [main] com.hazelcast.system                     : [192.168.1.4]:5701 [dev] [4.0.3] Copyright (c) 2008-2020, Hazelcast, Inc. All Rights Reserved.
+2021-01-10 13:59:13.669  INFO 9684 --- [main] c.h.s.i.o.impl.BackpressureRegulator     : [192.168.1.4]:5701 [dev] [4.0.3] Backpressure is disabled
+2021-01-10 13:59:13.972  INFO 9684 --- [main] com.hazelcast.instance.impl.Node         : [192.168.1.4]:5701 [dev] [4.0.3] Creating MulticastJoiner
+2021-01-10 13:59:13.976  WARN 9684 --- [main] com.hazelcast.cp.CPSubsystem             : [192.168.1.4]:5701 [dev] [4.0.3] CP Subsystem is not enabled. CP data structures will operate in UNSAFE mode! Please note that UNSAFE mode will not provide strong consistency guarantees.
+2021-01-10 13:59:14.230  INFO 9684 --- [main] c.h.s.i.o.impl.OperationExecutorImpl     : [192.168.1.4]:5701 [dev] [4.0.3] Starting 8 partition threads and 5 generic threads (1 dedicated for priority tasks)
+2021-01-10 13:59:14.233  INFO 9684 --- [main] c.h.internal.diagnostics.Diagnostics     : [192.168.1.4]:5701 [dev] [4.0.3] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+2021-01-10 13:59:14.240  INFO 9684 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTING
+2021-01-10 13:59:16.821  INFO 9684 --- [main] c.h.internal.cluster.ClusterService      : [192.168.1.4]:5701 [dev] [4.0.3] 
+
+Members {size:1, ver:1} [
+	Member [192.168.1.4]:5701 - fec4c350-fd55-48c7-a9c8-ab82a28f1b56 this
+]
+
+2021-01-10 13:59:16.835  INFO 9684 --- [main] com.hazelcast.core.LifecycleService      : [192.168.1.4]:5701 [dev] [4.0.3] [192.168.1.4]:5701 is STARTED
+2021-01-10 13:59:16.993  INFO 9684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-10 13:59:17.512  INFO 9684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-10 13:59:17.573  INFO 9684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-10 13:59:17.647  INFO 9684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-10 13:59:17.876  INFO 9684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-10 13:59:18.093  INFO 9684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-01-10 13:59:18.874  INFO 9684 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-10 13:59:18.886  INFO 9684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-10 13:59:19.549  WARN 9684 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-10 13:59:19.914  INFO 9684 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2021-01-10 13:59:20.096  INFO 9684 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-10 13:59:20.465  INFO 9684 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-10 13:59:20.466  INFO 9684 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-10 13:59:20.468  INFO 9684 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-10 13:59:20.482  INFO 9684 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@34a20f16{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2021-01-10 13:59:20.484  INFO 9684 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2021-01-10 13:59:20.873  INFO 9684 --- [main] g.h.s.p.ProductrestapiApplication        : Started ProductrestapiApplication in 10.977 seconds (JVM running for 11.858)
+2021-01-10 13:59:29.592  WARN 9684 --- [qtp1015552283-26] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public gr.hassialis.springweb.productrestapi.entities.Product gr.hassialis.springweb.productrestapi.controllers.ProductRestController.createProduct(gr.hassialis.springweb.productrestapi.entities.Product): [Field error in object 'product' on field 'price': rejected value [0.0]; codes [Min.product.price,Min.price,Min.double,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [product.price,price]; arguments []; default message [price],1]; default message [must be greater than or equal to 1]] ]
